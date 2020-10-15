@@ -2,4 +2,9 @@
 git init
 // Liaison entre le projet et le Git
 git remote add origin https://github.com/BouainTakoua/framework-selenium-cucumber.git
-//
+// Afficher statut
+git status
+// Ajouter les fichiers 
+git add .
+// Commit
+git commit -m "first commit"
