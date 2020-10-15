@@ -1,0 +1,116 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10686029600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Authetification - OrangeHRM",
+        "description": "",
+        "id": "authetification---orangehrm;authetification---orangehrm",
+        "after": [
+          {
+            "result": {
+              "duration": 2241069100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2465289600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "je ouvre l application OrangeHRM",
+            "match": {
+              "location": "AuthentificationStepDefinition.jeOuvreLApplicationOrangeHRM()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 223215400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "je saisie username",
+            "match": {
+              "location": "AuthentificationStepDefinition.jeSaisieUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 207857900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "je saisie le mot de passe",
+            "match": {
+              "location": "AuthentificationStepDefinition.jeSaisieLeMotDePasse()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2785079200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clique sur le boutton login",
+            "match": {
+              "location": "AuthentificationStepDefinition.cliqueSurLeBouttonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84700100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "redirection vers la page home",
+            "match": {
+              "location": "AuthentificationStepDefinition.redirectionVersLaPageHome()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@cnx"
+          }
+        ]
+      }
+    ],
+    "name": "Authetification - OrangeHRM",
+    "description": "En tant que utilisateur je souhaite m authentifier",
+    "id": "authetification---orangehrm",
+    "keyword": "Feature",
+    "uri": "authentification/Authentification.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@connexion"
+      }
+    ]
+  }
+]
