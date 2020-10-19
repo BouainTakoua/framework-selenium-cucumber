@@ -1,21 +1,18 @@
 @tag
-Feature: Authentification - param - OrangeHRM
-  as a user i want to authenticate
-  
-Background:
+Feature: Authentification - Param - OrangeHRM
+  En tant que utilisateur je souhaite m autentifier
 
-  @auth
-  Scenario: Authentification - param - OrangeHRM
-    Given je ouvre l application OrangeHRM
-    When je saisie le nom d utilisateur "Admin"
-    And je saisie le mot de passe "admin123"
-    And clique sur le boutton login
-    Then redirection vers la page Home
+  Background: 
+    Given Je ouvre l application OrangeHRM
+    When Je saisie le nom d utilisateur "Admin"
+    And Je saisie le mot de passe "admin123"
+    And Je clique sur le boutton Login
+    Then Redirection vers la page Home
 
   @buzz
-  Scenario: Clique - Buzz    
-    When je clique le module Buzz
+  Scenario: Clique - Buzz
+    When Je clique sur le module Buzz
 
   @temps
   Scenario: Clique - Temps
-    When je clique le module temps
+    When Je clique sur le module Temps
